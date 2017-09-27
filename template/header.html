@@ -1,0 +1,172 @@
+<html>
+<head>
+    <style type="text/css">
+        TABLE {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        TABLE TD {
+            border: 1px solid black;
+        }
+
+        TABLE.grid TD {
+            width: 4em;
+            height: 4em;
+            position: relative;
+            font-size: 8pt;
+            text-align: center;
+        }
+
+        TABLE.grid TH {
+            font-size: 8pt;
+        }
+
+        @media print {
+            TABLE.gridColours, TABLE#maxColours {
+                page-break-after: always;
+            }
+        }
+
+        TABLE.gridColours {
+            margin-top: 1em;
+        }
+
+        TABLE.gridColours TD {
+            font-size: 8pt;
+        }
+
+        TABLE.smallgrid {
+            float: right;
+        }
+
+        TABLE.smallgrid TD {
+            width : 4px;
+            height: 7px;
+        }
+
+        TABLE.smallgrid TD.this {
+            background-color: darkgray;
+        }
+
+        TD.spacer {
+            border-top: none;
+            border-bottom: none;
+            width: 4em;
+        }
+
+
+        .cobble {
+            background-color: rgb(111,111,111);
+            color: white;
+ 		}
+        .diorite {
+            background-color: rgb(252,249,242);
+ 		}
+        .grass {
+            background-color: rgb(125,176,55);
+ 		}
+        .oakwood {
+            background-color: rgb(141,118,71);
+ 		}
+        .sprucewood {
+            background-color: rgb(126,84,48);
+ 		}
+        .junglewood {
+            background-color: rgb(149,108,76);
+ 		}
+        .water {
+            background-color: rgb(63,63,252);
+            color: white;
+ 		}
+        .leaves {
+            background-color: rgb(0,123,0);
+            color: white;
+ 		}
+        .lapis {
+            background-color: rgb(73,129,252);
+ 		}
+        .sand {
+            background-color: rgb(244,230,161);
+ 		}
+        .white {
+            background-color: white;
+ 		}
+        .orange {
+            background-color: rgb(213,125,50);
+ 		}
+        .magenta {
+            background-color: rgb(176,75,213);
+ 		}
+        .lightblue {
+            background-color: rgb(101,151,213);
+ 		}
+        .yellow {
+            background-color: rgb(226,226,50);
+ 		}
+        .lime {
+            background-color: rgb(125,202,25);
+ 		}
+        .pink {
+            background-color: rgb(239,125,163);
+ 		}
+        .gray {
+            background-color: rgb(75,75,75);
+            color: white;
+ 		}
+        .lightgray {
+            background-color: rgb(151,151,151);
+ 		}
+        .cyan {
+            background-color: rgb(75,125,151);
+ 		}
+        .purple {
+            background-color: rgb(125,62,176);
+            color: white;
+ 		}
+        .blue {
+            background-color: rgb(50,75,176);
+            color: white;
+ 		}
+        .brown {
+            background-color: rgb(101,75,50);
+            color: white;
+ 		}
+        .green {
+            background-color: rgb(101,125,50);
+ 		}
+        .red {
+            background-color: rgb(151,50,50);
+            color: white;
+ 		}
+        .black {
+            background-color: rgb(25,25,25);
+            color: white;
+ 		}
+        .tnt {
+            background-color: rgb(252,0,0);
+ 		}
+        .ice {
+            background-color: rgb(158,158,252);
+ 		}
+        .clay {
+            background-color: rgb(162,166,182);
+ 		}
+        .netherrack {
+            background-color: rgb(111,2,0);
+            color: white;
+ 		}
+        .emerald {
+            background-color: rgb(0,214,57);
+ 		}
+        .prismarine {
+            background-color: rgb(91,216,210);
+ 		}
+        .haybale {
+            background-color: rgb(247,235,76);
+        }
+
+    </style>
+
+</head>
+<body>
+
